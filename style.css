@@ -197,12 +197,13 @@ body {
   flex-wrap: wrap;
 }
 
-/*#product1 .pro-container{
+#product1 .pro-container{
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-  flex-flow: row wrap;*/
+  flex-flow: wrap;
+}
 
 #product1 .pro{
   width: 23%;
@@ -243,7 +244,7 @@ body {
 }
 
 #product1 .pro .des i{
-  fontsize: 12px;
+  font-size: 12px;
   color: rgb(243, 181, 25);
 }
 #product1 .pro .des h4{
