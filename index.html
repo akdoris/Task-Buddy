@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="navbar">
+    <section id="header">
         <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
@@ -16,8 +17,13 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
+        </div>
+        <div id="mobile">
+          <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+          <i id="bar" class="fas fa-outdent"></i>
         </div>
     </section>
 
@@ -196,39 +202,7 @@
             <h4>$72</h4>
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div><div class="pro">
-            <img src="img/products/f6.jpg" alt="">
-            <div class="des">
-              <span>Adidas</span>
-              <h5>Cartoon Astronaut T-shirts</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>$50</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-          </div>
-        
-          <div class="pro">
-            <img src="img/products/f7.jpg" alt="">
-            <div class="des">
-              <span>Adidas</span>
-              <h5>Cartoon Astronaut T-shirts</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>$57</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-          </div>
+        </div>
       </section>
       
       <section id="banner" class="section-m1">
@@ -376,39 +350,7 @@
             <h4>$72</h4>
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div><div class="pro">
-            <img src="img/products/n6.jpg" alt="">
-            <div class="des">
-              <span>Adidas</span>
-              <h5>Cartoon Astronaut T-shirts</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>$50</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-          </div>
-        
-          <div class="pro">
-            <img src="img/products/n7.jpg" alt="">
-            <div class="des">
-              <span>Adidas</span>
-              <h5>Cartoon Astronaut T-shirts</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>$57</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-          </div>
+        </div>
       </section>
 
       <section id="sm-banner" class="section-m1">
@@ -424,18 +366,6 @@
           <h2>Upcomming season</h2>
           <span>The best classic dress is on sale at cara</span>
           <button class="white">Collection</button>
-        </div>
-        <div class="banner-box banner-box2">
-          <h4>Spring/Summer</h4>
-          <h2>Upcomming season</h2>
-          <span>The best classic dress is on sale at cara</span>
-          <button class="white">Collection</button>
-        </div>
-        <div class="banner-box">
-          <h4>Crazy deals</h4>
-          <h2>Buy 1 get 1 free</h2>
-          <span>The best classic dress is on sale at cara</span>
-          <button class="white">Explore More</button>
         </div>
       </section>
 
@@ -468,7 +398,7 @@
       
       <footer class="section-p1">
         <div class="col">
-          <img src="img/logo.png" alt="">
+          <img src="img/logo.png" class="image">
           <h4>Contact</h4>
           <p><strong>Address</strong> KK 806 street, Kicukiro, kigarama, Kigali</p>
           <p><strong>Phone:</strong> +250-789-435-674</p>
@@ -511,11 +441,10 @@
           <img src="img/pay/pay.png" alt="">
         </div>
 
-        <div class="copyright">
+       <!--<div class="copyright">
           <p>© 2025, doris design etc-HTML,CSS</p>
-        </div>
+        </div>-->
       </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
