@@ -1,0 +1,12 @@
+com\taskbuddy\exception\GlobalExceptionHandler.class
+com\taskbuddy\TaskbuddyApplication.class
+com\taskbuddy\model\Status.class
+com\taskbuddy\exception\ErrorResponse.class
+com\taskbuddy\service\TaskService.class
+com\taskbuddy\config\CorsConfig$1.class
+com\taskbuddy\controller\TaskController.class
+com\taskbuddy\exception\TaskNotFoundException.class
+com\taskbuddy\model\Priority.class
+com\taskbuddy\config\CorsConfig.class
+com\taskbuddy\repository\TaskRepository.class
+com\taskbuddy\model\Task.class

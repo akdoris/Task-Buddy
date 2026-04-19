@@ -1,0 +1,11 @@
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\exception\ErrorResponse.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\TaskbuddyApplication.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\service\TaskService.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\config\CorsConfig.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\controller\TaskController.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\exception\GlobalExceptionHandler.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\exception\TaskNotFoundException.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\repository\TaskRepository.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\model\Status.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\model\Priority.java
+C:\Users\DOLIS\Task-Buddy\Backend\src\main\java\com\taskbuddy\model\Task.java
